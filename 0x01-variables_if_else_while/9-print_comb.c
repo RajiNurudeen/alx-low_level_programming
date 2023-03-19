@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: Entry point for the program
+ * main - Printing digits with comma.
  *
  * Return: 0 (Success)
  */
