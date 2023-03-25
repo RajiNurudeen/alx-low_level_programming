@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - Entry point
+ *print_alphabet - print he alphabets
  *
  *Return: Always (Success)
  */
@@ -12,6 +12,6 @@ void print_alphabet(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
