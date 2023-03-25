@@ -2,7 +2,8 @@
 
 /**
  * add - add two integers
- * @x, y: the two integers to be added
+ * @x: first parameter
+ * @y: second parameter
  *
  * Return: Always (Success)
  */
