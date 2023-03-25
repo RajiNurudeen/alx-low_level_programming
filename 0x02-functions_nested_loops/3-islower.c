@@ -2,6 +2,7 @@
 
 /**
  * _islower - Checks for lowercase
+ * int c - parameter
  *
  * Return: Always (Success)
  */
