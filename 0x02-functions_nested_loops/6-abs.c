@@ -2,9 +2,9 @@
 
 /**
  * _abs - compute the absolute value of an integer
- * @n: initialize the argument
+ * @n: initialize the number to be computed
  *
- * return: Always (Success)
+ * Return: Always (Success)
  */
 
 int _abs(int n)
