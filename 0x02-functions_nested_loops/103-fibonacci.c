@@ -16,7 +16,9 @@ int main(void)
 	{
 		second_num += first_num;
 		if (second_num % 2 == 0)
-		       next_num += second_num;
+		{
+			next_num += second_num;
+		}
 		first_num = second_num - first_num;
 		++count;
 	}
