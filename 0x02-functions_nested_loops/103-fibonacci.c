@@ -16,10 +16,8 @@ int main(void)
 	{
 		second_num += first_num;
 	       if (next_num % 2 == 0)
-	       {
 		       next_num += second_num;
-		       first_num = second_num - first_num;
-	       }
+	       first_num = second_num - first_num;
 	       count++;
 	}
 	printf("%lu\n", next_num);
