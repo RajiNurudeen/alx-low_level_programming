@@ -15,10 +15,10 @@ int main(void)
 	while (first_num + second_num < 4000000)
 	{
 		second_num += first_num;
-		if (next_num % 2 == 0)
+		if (second_num % 2 == 0)
 		       next_num += second_num;
-	       first_num = second_num - first_num;
-	       ++count;
+		first_num = second_num - first_num;
+		++count;
 	}
 	printf("%ld\n", next_num);
 	return (0);
