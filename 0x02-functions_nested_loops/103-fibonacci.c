@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	count = 0;
+	int count = 0;
 	long first_num, second_num;
 	long next_num = second_num;
 
@@ -19,7 +19,7 @@ int main(void)
 	       if (next_num % 2 == 0)
 	       {
 		       next_num += second_num;
-		       first_num = second num - first_num;
+		       first_num = second_num - first_num;
 	       }
 	       count++;
 	}
