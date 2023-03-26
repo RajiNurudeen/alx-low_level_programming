@@ -9,10 +9,9 @@
 int main(void)
 {
 	int count = 0;
-	long first_num, second_num;
-	long next_num = second_num;
+	long first_num = 1, second_num = 2, next_num = second_num;
 
-	first_num = 1, second_num = 2;
+
 	while (first_num + second_num < 4000000)
 	{
 		second_num += first_num;
