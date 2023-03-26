@@ -18,8 +18,8 @@ int main(void)
 	       if (next_num % 2 == 0)
 		       next_num += second_num;
 	       first_num = second_num - first_num;
-	       count++;
+	       ++count;
 	}
-	printf("%lu\n", next_num);
+	printf("%ld\n", next_num);
 	return (0);
 }
