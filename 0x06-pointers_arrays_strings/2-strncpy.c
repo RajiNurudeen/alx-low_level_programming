@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copy a string
+ * _strncpy - copy a string or an iputted number
  * @dest: first parammeter
  * @src: second parameter
  * @n: third parameter
@@ -20,6 +20,6 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (i = j; i < n; i++)
 		dest[i] = '\0';
-
+	
 	return (dest);
 }
