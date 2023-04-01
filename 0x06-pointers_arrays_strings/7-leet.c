@@ -14,7 +14,7 @@ char *leet(char *s)
 	char leet[] = "4433007711";
 
 	i = 0;
-	/*Check through the string */
+	/* Check through the string */
 	while (s[i] != '\0')
 	{
 		j = 0;
