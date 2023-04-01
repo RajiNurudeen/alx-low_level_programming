@@ -3,7 +3,7 @@
 /**
  * string_toupper - Changes all lowercase to uppercase
  * @str: string to change
- * Return a character
+ * Return: a character
  */
 
 char *string_toupper(char *str)
