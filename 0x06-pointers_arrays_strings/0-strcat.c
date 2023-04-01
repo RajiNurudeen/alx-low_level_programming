@@ -4,7 +4,7 @@
  * _strcat - Concatenate two strings
  * @dest: first parameter
  * @src: second parameter
- * Return: return a character
+ * Return: Always (Success)
  */
 
 char *_strcat(char *dest, char *src)
@@ -16,7 +16,6 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[i] = src[j];
 	}
-
 	dest[i] = '\0';
 	return (dest);
 }
