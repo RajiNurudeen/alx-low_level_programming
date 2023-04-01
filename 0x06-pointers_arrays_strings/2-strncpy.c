@@ -5,8 +5,7 @@
  * @dest: first parammeter store string copy
  * @src: second parameter
  * @n: third parameter
- * Return: return a char
- *
+ * Return: Always (Success)
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -21,6 +20,6 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (i = j; i < n; i++)
 		dest[i] = '\0';
-	
+
 	return (dest);
 }
