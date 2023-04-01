@@ -3,8 +3,7 @@
 /**
  * leet - encodes a string into 1337
  * @s: string to encode
- *
- * Return: returns a character
+ * Return: return a pointer (s)
  */
 
 char *leet(char *s)
@@ -20,7 +19,6 @@ char *leet(char *s)
 		j = 0;
 		while (j < 10)
 		{
-			/* Check and replace the letters of string s in letter and replace with leet */
 			if (letter[j] == s[i])
 			{
 				s[i] = leet[j];
