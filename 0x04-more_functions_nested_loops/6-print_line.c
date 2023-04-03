@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line(int n)
+ * print_line - print a new line
  * @n: number of times the line should be printed
- * Return: return nothing or 0.
+ * Return: return nothing
  */
 
 void print_line(int n)
