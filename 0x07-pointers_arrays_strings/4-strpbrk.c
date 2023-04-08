@@ -4,8 +4,8 @@
  * _strpbrk - searches a string for a set of bytes
  * @s: string to be searched
  * @accept: string to check its occurence in *s
- * 
- * Return: return a pointer to s
+ *
+ * Return: a pointer to the byte in s or 0
  */
 
 char *_strpbrk(char *s, char *accept)
