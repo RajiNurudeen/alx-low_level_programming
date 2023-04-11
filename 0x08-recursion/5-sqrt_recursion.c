@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _sqrt_actual - the fuction for the actual square root
  * _sqrt_recursion - natural square root of a number
  * @i: first paraameter of the actual sqrt
  * @n: the number to find it's natural root
