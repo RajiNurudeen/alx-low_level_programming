@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - natural square root of a number
+ * @i: first paraameter of the actual sqrt
  * @n: the number to find it's natural root
  *
  * Return: the natural square root
