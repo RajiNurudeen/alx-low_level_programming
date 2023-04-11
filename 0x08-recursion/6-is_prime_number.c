@@ -27,7 +27,7 @@ int _prime_actual(int n, int i)
 
 /**
  * is_prime_number - calls the function _prime_actual
- * n: the value checked
+ *@n: the value checked
  *
  * Return: value of the prime number
  */
