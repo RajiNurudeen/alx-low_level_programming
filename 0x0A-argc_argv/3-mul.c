@@ -5,7 +5,7 @@
  * _atoi - used to convert string to int
  * @s: string parameter
  *
- * Return: the connverted int n
+ * Return: the converted int n
  */
 
 int _atoi(char *s)
