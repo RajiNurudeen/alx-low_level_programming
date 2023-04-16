@@ -4,13 +4,19 @@
 
 /**
  * _atoi - used to convert string to int
- *@s: string argument
- *Return: the connverted int
+ * @s: string argument
+ *
+ * Return: the connverted int
  */
 
 int _atoi(char *s)
 {
-	int i, d, n, f, len, digit;
+	int i;
+	int d;
+	int n;
+	int f;
+	int len;
+	int digit;
 
 	i = 0;
 	d = 0;
