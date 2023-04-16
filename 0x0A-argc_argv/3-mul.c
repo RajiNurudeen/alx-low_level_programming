@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _atoi - used to convert string to int
+ * _atoi - used to convert string to integer
  * @s: string parameter
  *
- * Return: the converted int n
+ * Return: the converted n
  */
 
 int _atoi(char *s)
@@ -30,15 +30,21 @@ int _atoi(char *s)
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
+		{
 			++d;
+		}
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
+			
 			if (d % 2)
+			{
 				digit =- digit;
+			}
 			n = n * 10 + digit;
 			f = 1;
+			
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 			f = 0;
@@ -57,7 +63,7 @@ int _atoi(char *s)
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0 for success, 1 for error
+ * Return: 0 (Success), 1 (Error)
  */
 
 int main(int argc, char *argv[])
@@ -77,5 +83,6 @@ int main(int argc, char *argv[])
 	mul = first_num * second_num;
 
 	printf("%d\n", mul);
+
 	return (0);
 }
