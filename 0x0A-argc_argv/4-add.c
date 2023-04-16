@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 	char *e;
 
 	i = 1;
+	j = 0;
 	if (argc > 1)
 	{
 		while (i < argc)
