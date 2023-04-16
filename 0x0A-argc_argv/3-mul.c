@@ -4,9 +4,9 @@
 
 /**
  * _atoi - used to convert string to int
- * @s: string argument
+ * @s: string parameter
  *
- * Return: the connverted int
+ * Return: the connverted int n
  */
 
 int _atoi(char *s)
@@ -45,7 +45,6 @@ int _atoi(char *s)
 
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
-
 			f = 0;
 		}
 		i++;
@@ -57,7 +56,7 @@ int _atoi(char *s)
 }
 
 /**
- * main - function
+ * main - multiplies second and third arguments
  * @argc: number of arguments
  * @argv: array of arguments
  *
