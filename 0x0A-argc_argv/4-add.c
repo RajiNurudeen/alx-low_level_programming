@@ -8,16 +8,15 @@
  * @argc: number of arguments
  * @argv: array of arguments
  * 
- * Return: 0 for Success, 1 for Error
+ * Return: 0 (Success), 1 (Error)
  */
 
 int main(int argc, char *argv[])
 {
 	int i;
-	unsigned int j, sum;
+	unsigned int j, sum = 0;
 	char *e;
 
-	sum = 0;
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
