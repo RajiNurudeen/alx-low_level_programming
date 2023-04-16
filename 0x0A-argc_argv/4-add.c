@@ -8,7 +8,7 @@
  * @argc: number of arguments
  * @argv: array of arguments
  * 
- * Return: 0 (Success), 1 (Error)
+ * Return: Always zero
  */
 
 int main(int argc, char *argv[])
@@ -17,23 +17,27 @@ int main(int argc, char *argv[])
 	unsigned int j, sum = 0;
 	char *e;
 
+	i = 1;
 	if (argc > 1)
 	{
-		for (i = 1; i < argc; i++)
+		while (i < argc)
 		{
 			e = argv[i];
 
-			for (j = 0; j < strlen(e); j++)
+			while (j < strlen(e))
 			{
 				if  (e[j] < 48 || e[j] > 57)
 				{
 					printf("Error\n");
 					return (1);
 				}
+				j++;
 			}
 
 			sum += atoi(e);
 			e++;
+
+			i++;
 		}
 
 		printf("%d\n", sum);
