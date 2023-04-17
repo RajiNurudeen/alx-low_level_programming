@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 	char *e;
 
 	sum = 0;
+
 	if (argc > 1)
 	{
 		i = 1;
@@ -36,10 +37,8 @@ int main(int argc, char *argv[])
 				}
 				j++;
 			}
-
-			sum += atoi(e);
+			sum = sum + atoi(e);
 			e++;
-
 			i++;
 		}
 
