@@ -17,14 +17,14 @@ int main(int argc, char *argv[])
 	unsigned int j, sum = 0;
 	char *e;
 
-	i = 1;
-	j = 0;
 	if (argc > 1)
 	{
+		i = 1;
 		while (i < argc)
 		{
 			e = argv[i];
 
+			j = 0;
 			while (j < strlen(e))
 			{
 				if  (e[j] < 48 || e[j] > 57)
