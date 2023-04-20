@@ -7,7 +7,7 @@
  * @s1: first string
  * @s2: second string
  *
- * Return: pointer to concate or NULL
+ * Return: concate string
  */
 
 char *str_concat(char *s1, char *s2)
