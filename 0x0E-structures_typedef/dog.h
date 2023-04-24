@@ -1,13 +1,13 @@
-#ifndef _HEADER_
-#define _HEADER_
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - Dog attributes
- * @name: The name of the dog
- * @age: The age of  the dog
- * @owner: The owner of dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of dog
  *
- * Description: The attributes of the dog
+ * Description: attributes of the dog
  */
 
 struct dog
