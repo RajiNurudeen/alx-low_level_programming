@@ -6,7 +6,7 @@
  * @size: the size of the array
  * @cmp: points to the function to be used
  *
- * Return: first element or 0
+ * Return: first element or (0)
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -15,7 +15,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	if (size > 0)
 	{
-		if (array != NULL && cmp !=NULL)
+		if (array != NULL && cmp != NULL)
 		{
 			while (i < size)
 			{
