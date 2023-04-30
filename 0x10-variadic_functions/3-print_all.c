@@ -5,7 +5,6 @@
 /**
  * print_all - prints anything
  * @format: list of arguments passed
- * @...: the printed strings
  *
  * Return: Success (0)
  */
