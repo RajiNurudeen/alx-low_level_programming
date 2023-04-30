@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
- * print_strings - prints strings
- * @seperator: string used to seperate strings
+ * print_strings - prints string
+ * @seperator: used to seperate strings
  * @n: numbers of strings passed to function
  * @...: the strings to be printed
  *
@@ -17,7 +17,7 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 	char *str;
 	unsigned int i;
 
-	va_start(strings,n);
+	va_start(strings, n);
 
 	for (i = 0; i < n; i++)
 	{
