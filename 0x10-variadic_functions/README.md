@@ -1,3 +1,0 @@
------------ C programming ------------
-
-Variadic functions
